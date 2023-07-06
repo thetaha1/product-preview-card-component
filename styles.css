@@ -61,7 +61,7 @@ body {
 .container .card-details h1 {
   font: var(--display);
   color: var(--gunmetal, #1c232b);
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 .container .card-details p {
