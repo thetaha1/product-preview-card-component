@@ -84,6 +84,7 @@ body {
 
 .container .card-details .price .original-price {
   font: var(--overline);
+  font-size: 13px;
   color: var(--aurometal-saurus, #6c7289);
   margin-bottom: 36px;
   margin-left: 19px;
