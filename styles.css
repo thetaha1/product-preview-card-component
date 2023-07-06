@@ -99,6 +99,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.35s;
+}
+
+.container .card-details .add-button:active {
+  background: var(--deep-aquamarine-hover, #1a4032);
 }
 
 .container .card-details .add-button img {
