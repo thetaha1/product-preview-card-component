@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /* Colors */
+  --pure-white: #ffffff;
+  --cream-bg: #f2eae2;
+  --aurometal-saurus: #6c7289;
+  --deep-aquamarine: #3d8168;
+  --deep-aquamarine-hover: #1a4032;
+  --gunmetal: #1c232b;
+
+  /* Fonts */
+  --display: 700 32px/32px "Fraunces", sans-serif;
+  --body: 500 14px/23px "Montserrat", sans-serif;
+  --button-text: 700 14px "Montserrat", sans-serif;
+  --overline: 500 12px "Montserrat", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--cream-bg, #f2eae2);
+}
+
+.container {
+  width: 600px;
+  height: 450px;
+  background: var(--pure-white, #fff);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.container img {
+  width: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card-details {
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container .card-details span {
+  font: var(--overline);
+  letter-spacing: 5px;
+  color: var(--aurometal-saurus, #6c7289);
+  margin-bottom: 20px;
+}
+
+.container .card-details h1 {
+  font: var(--display);
+  color: var(--gunmetal, #1c232b);
+  margin-bottom: 20px;
+}
+
+.container .card-details p {
+  font: var(--body);
+  color: var(--aurometal-saurus, #6c7289);
+  margin-bottom: 29px;
+}
+
+.container .card-details .price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+}
+
+.container .card-details .price .offer-price {
+  font: var(--display);
+  color: var(--deep-aquamarine, #3d8168);
+}
+
+.container .card-details .price .original-price {
+  font: var(--overline);
+  color: var(--aurometal-saurus, #6c7289);
+  margin-bottom: 36px;
+  margin-left: 19px;
+  margin-top: 10px;
+}
+
+.container .card-details .add-button {
+  width: 236px;
+  height: 48px;
+  border-radius: 8px;
+  background: var(--deep-aquamarine, #3d8168);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .card-details .add-button img {
+  width: 14.385px;
+  height: 16px;
+  margin-right: 12px;
+  border-radius: 0px;
+}
+
+.container .card-details .add-button .button-text {
+  color: var(--pure-white, #fff);
+  font: var(--button-text);
+  margin-top: 30px;
+}
