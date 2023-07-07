@@ -87,12 +87,12 @@ body {
   overflow: hidden;
   /* max-width: 645px; */
   max-width: 600px;
-  margin-bottom: 20px;
 }
 
 @media (min-width: 645px) {
   .product {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
   }
 
   .product__content {
