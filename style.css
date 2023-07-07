@@ -164,6 +164,7 @@ body {
   font-weight: var(--fw-bold);
   font-size: 2rem;
   line-height: 2rem;
+  margin: 0;
 }
 
 .price .product__original-price {
@@ -172,6 +173,7 @@ body {
   font-size: 0.8125rem;
   line-height: 1.4375rem;
   text-decoration-line: strikethrough;
+  margin: 0;
 }
 
 /* button */
