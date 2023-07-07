@@ -96,24 +96,24 @@ body {
   }
 
   .product__content {
-    padding: 3rem;
+    padding: 32px;
     display: grid;
   }
 
   .product__category {
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
   }
 
   .product__title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
   }
 
   .product__content p {
-    margin-bottom: 1.81rem;
+    margin-bottom: 29px;
   }
 
   .price {
-    margin-bottom: 1.87rem;
+    margin-bottom: 30px;
   }
 }
 
