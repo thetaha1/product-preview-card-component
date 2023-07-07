@@ -92,7 +92,7 @@ body {
 @media (min-width: 645px) {
   .product {
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
   }
 
   .product__content {
