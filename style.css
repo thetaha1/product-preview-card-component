@@ -96,6 +96,7 @@ body {
   }
 
   .product__content {
+    width: 236px;
     padding: 32px;
     display: grid;
   }
