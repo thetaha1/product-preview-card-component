@@ -97,7 +97,7 @@ body {
 
   .product__content {
     width: 300px;
-    padding: 32px important;
+    padding: 32px;
     display: grid;
   }
 
