@@ -81,6 +81,8 @@ body {
 
 /* utilities */
 .product {
+  --content-padding: 1.5rem;
+
   display: grid;
   background-color: var(--clr-neutral-100);
   border-radius: 0.625rem;
@@ -91,12 +93,12 @@ body {
 
 @media (min-width: 645px) {
   .product {
+    --content-padding: 2rem;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 25px;
   }
 
   .product__content {
-    padding: 32px;
     display: grid;
   }
 
@@ -119,7 +121,7 @@ body {
 
 /* product content */
 .product__content {
-  padding: 1.5rem;
+  padding: var(--content-padding);
   display: grid;
 }
 
