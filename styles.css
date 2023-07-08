@@ -106,6 +106,7 @@ body {
   }
 
   .product__content {
+    width: 14.75rem;
     padding: 3rem;
   }
 
