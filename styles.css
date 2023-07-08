@@ -110,19 +110,19 @@ body {
   }
 
   .product__category {
-    margin-bottom: 10px;
+    margin-bottom: 1.25rem;
   }
 
   .product__title {
-    margin-bottom: 10px;
+    margin-bottom: 1.5rem;
   }
 
   .product__content p {
-    margin-bottom: 10px;
+    margin-bottom: 1.81rem;
   }
 
   .button {
-    margin-top: 10px;
+    margin-top: 1.87rem;
   }
 }
 
