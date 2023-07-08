@@ -94,6 +94,7 @@ body {
 @media (min-width: 495px) {
   .product {
     width: 445px;
+    margin-bottom: 25px;
   }
 }
 
