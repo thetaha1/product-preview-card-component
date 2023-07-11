@@ -106,7 +106,7 @@ body {
   }
 
   .product__content {
-    padding: 32px;
+    padding: 32px !important;
   }
 
   .product__category {

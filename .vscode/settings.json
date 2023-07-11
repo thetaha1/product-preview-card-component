@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["aurometal", "Fraunces", "Parfum", "saurus", "strikethrough"]
+  "cSpell.words": [
+    "aurometal",
+    "Fraunces",
+    "Parfum",
+    "saurus",
+    "strikethrough"
+  ],
+  "liveServer.settings.port": 5501
 }
